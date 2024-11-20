@@ -1,0 +1,61 @@
+
+
+.prod{
+    &__vivis{
+        &-txt{
+            color: #0004FF;
+            font-size: 48px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+    }
+    
+    &__hello{
+        color: #0004FF;
+        font-size: 64px;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    &__line1{
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+    &__product{
+        color: #0004FF;
+        font-size: 64px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    &__line2{
+        margin-left: 10px;
+    }
+    &__vizit{
+        font-size: 48px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: #0004FF;
+    }
+}
+.mySwiper{
+    width: 100%;
+    display: flex;
+   
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #959595;
+    background-color: #ADADAD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.slide{
+    width: 19.8%;
+}

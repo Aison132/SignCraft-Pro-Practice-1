@@ -1,0 +1,66 @@
+// header style
+.header{
+    background-color: #0004FF;
+    padding: 10px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        align-items: center;
+        text-align: center;
+        &-right{
+            display: flex;
+            gap: 15px;
+        }
+        &-left{
+            display: flex;
+            gap: 15px;
+            &-name{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding-top: 25px;
+                &-logo1{
+                    width: 100px;
+                    
+                }
+                &-logo2{
+                    width: 50px;
+                }
+            }
+        }
+        &-center{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            &-item{
+                font-size: 24px;
+                &:hover{
+                    color: #FFE100;
+                }
+            }
+            &-link{
+                list-style: none;
+            }
+        }
+        &-name{
+            display: flex;
+        }
+        &-logo{
+            display: flex;
+        }
+    }
+    &__logo{
+        width: 100px;
+        &-name{
+            width: 50px;
+        }
+    }
+    &__container{
+        &-group{
+            gap: 25px;
+            display: flex;
+           
+        }
+    }
+}

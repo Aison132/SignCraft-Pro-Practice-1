@@ -1,0 +1,47 @@
+.otzivi{
+    &__txt{
+        margin-top: 10%;
+        margin-left: -30%;
+    }
+}
+.mySwiper2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    
+    
+}
+.swiper2-container2 {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .swiper2-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    gap: 10%;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+
+  .swiper2-slide2 img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+  }

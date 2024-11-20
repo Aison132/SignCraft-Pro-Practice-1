@@ -1,0 +1,485 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --content-width: 1200px;
+  --container-padding: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
+  --font-size: 16px;
+  --font-family: "SF UI", sans-serif;
+}
+
+@font-face {
+  font-family: "SF UI";
+  src: url(/assets/fonts/SFUIDisplay-Light.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF UI";
+  src: url(/assets/fonts/SFUIDisplay-Regular.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF UI";
+  src: url(/assets/fonts/SFUIDisplay-Medium.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF UI";
+  src: url(/assets/fonts/SFUIDisplay-Semibold.woff2) format(woff2);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF UI";
+  src: url(/assets/fonts/SFUIDisplay-Bold.woff2) format(woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+.application {
+  width: 100%;
+  background-color: var(--color-white);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+.application__template {
+  width: 100%;
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .container {
+    background-color: red;
+  }
+}
+
+.header {
+  background-color: #0004FF;
+  padding: 10px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+  text-align: center;
+}
+.header__content-right {
+  display: flex;
+  gap: 15px;
+}
+.header__content-left {
+  display: flex;
+  gap: 15px;
+}
+.header__content-left-name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+}
+.header__content-left-name-logo1 {
+  width: 100px;
+}
+.header__content-left-name-logo2 {
+  width: 50px;
+}
+.header__content-center {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.header__content-center-item {
+  font-size: 24px;
+}
+.header__content-center-item:hover {
+  color: #FFE100;
+}
+.header__content-center-link {
+  list-style: none;
+}
+.header__content-name {
+  display: flex;
+}
+.header__content-logo {
+  display: flex;
+}
+.header__logo {
+  width: 100px;
+}
+.header__logo-name {
+  width: 50px;
+}
+.header__container-group {
+  gap: 25px;
+  display: flex;
+}
+
+.prod__vivis-txt {
+  color: #0004FF;
+  font-size: 48px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.prod__hello {
+  color: #0004FF;
+  font-size: 64px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.prod__line1 {
+  margin-left: 20px;
+  margin-top: -60px;
+}
+.prod__product {
+  color: #0004FF;
+  font-size: 64px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.prod__line2 {
+  margin-left: 10px;
+}
+.prod__vizit {
+  font-size: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #0004FF;
+}
+
+.mySwiper {
+  width: 100%;
+  display: flex;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #959595;
+  background-color: #ADADAD;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.slide {
+  width: 19.8%;
+}
+
+.zakaz__text {
+  margin-top: 119px;
+  margin-left: 50px;
+}
+.zakaz-input2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.zakaz__content {
+  background-color: #ADADAD;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  gap: 50px;
+}
+.zakaz__content-input {
+  display: flex;
+  gap: 50px;
+  margin-top: 200px;
+  width: 100%;
+  justify-content: center;
+}
+.zakaz__input {
+  background-color: #FFF28F;
+  border: none;
+  width: 600px;
+  height: 60px;
+  border-radius: 15px;
+}
+.zakaz__input-4 {
+  width: 750px;
+  height: 200px;
+}
+.zakaz__input2 {
+  background-color: #FFF28F;
+  border: none;
+  width: 600px;
+  height: 60px;
+  border-radius: 15px;
+}
+.zakaz-input2__button {
+  background-color: #0004FF;
+  border-radius: 15px;
+  font-size: 48px;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  cursor: pointer;
+}
+.zakaz-input2__button:hover {
+  background-color: #000273;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+  background: #43A047;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+.login {
+  background-color: #4CAF50;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.create {
+  background-color: #4CAF50;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.galery {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.galery-knopka {
+  justify-content: center;
+  display: flex;
+}
+.galery__name {
+  color: #0004FF;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+.galery-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.galery-content-2 {
+  display: none;
+}
+.galery-content-bn {
+  font-size: 30px;
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #0004FF;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.galery-content-bn:hover {
+  background-color: #000273;
+}
+
+.onas-text {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.onas__content-photos {
+  margin-top: 50px;
+  margin-left: 20px;
+  float: left;
+}
+.onas__content-text11 {
+  color: #0004FF;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+  padding: 100px 50px 20px;
+}
+
+.otzivi__txt {
+  margin-top: 10%;
+  margin-left: -30%;
+}
+
+.mySwiper2 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.swiper2-container2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper2-slide2 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  gap: 10%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper2-slide2 img {
+  display: block;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.geol {
+  padding-bottom: 5%;
+}
+.geol__text {
+  color: #0004FF;
+  font-size: 64px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.geol__carta {
+  width: 1157px;
+  height: 564px;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.footer {
+  background-color: #0004FF;
+  height: 280px;
+}
+.footer-content__names {
+  font-size: 36px;
+  margin-left: 40%;
+}
+.footer-content__contact {
+  color: #FFE100;
+  font-size: 24px;
+  margin-left: 5%;
+}
+.footer-content__prava {
+  margin-left: 50%;
+  color: #FFE100;
+}/*# sourceMappingURL=main-style.min.css.map */

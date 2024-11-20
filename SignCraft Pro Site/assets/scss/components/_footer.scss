@@ -1,0 +1,21 @@
+.footer{
+    background-color: #0004FF;
+
+    height: 280px;
+    &-content{
+        &__names{
+            font-size: 36px;
+            margin-left: 40%;
+        }
+        &__contact{
+            color: #FFE100;
+            font-size: 24px;
+            margin-left: 5%;
+        }
+        &__prava{
+            margin-left: 50%;
+            color: #FFE100;
+            
+        }
+    }
+}

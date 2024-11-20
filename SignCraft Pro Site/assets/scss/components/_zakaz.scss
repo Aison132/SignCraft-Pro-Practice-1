@@ -1,0 +1,65 @@
+.zakaz{
+    &__text{
+        margin-top: 119px;
+        margin-left: 50px;
+    }
+    &-input2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    &__content{
+        background-color: #ADADAD;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        gap: 50px;
+        &-input{
+            display: flex;
+            gap: 50px;
+            margin-top: 200px;
+            width: 100%;
+            justify-content: center;
+            
+        }
+
+    }
+    &__input{
+        background-color: #FFF28F;
+        border: none;
+        width: 600px;
+        height: 60px;
+        border-radius: 15px;
+
+        
+        &-4{
+            width: 750px;
+            height: 200px;
+        }
+    }
+    &__input2{
+        background-color: #FFF28F;
+        border: none;
+        width: 600px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    &-input2{
+        &__button{
+            background-color: #0004FF;
+            border-radius: 15px;
+            font-size: 48px;
+            color: white;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: none;
+            cursor: pointer;
+            &:hover{ 
+                background-color: #000273;
+            }
+        }
+    }
+}

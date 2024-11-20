@@ -1,0 +1,38 @@
+.galery{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    &-knopka{
+        justify-content: center;
+        display: flex;
+    }
+    &__name{
+        color: #0004FF;
+        font-size: 36px;
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    &-content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        &-2{
+            display: none;
+        }
+        &-bn{
+            font-size: 30px;
+            padding: 15px;
+            padding-left: 35px;
+            padding-right: 35px;  
+            background-color: #0004FF;
+            color: white;  
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            &:hover{ 
+                background-color: #000273;
+            }
+        }
+    }
+
+}
